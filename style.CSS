@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: bisque;
+}
+#nav{
+    height: 8%;
+    background-color: rgb(206, 171, 83);
+    display: grid;
+    grid-template-columns: 40% 15% 15% 15% 15% ;
+}
+h1::first-letter{
+    font-family: serif;
+    color: brown;
+    font-size: 1.5em;
+    padding-right: 1%;
+}
+h3{
+    padding-top: 1em;
+    justify-self: center;
+}
